@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAEC45442DA38EC600491CDA /* microJournal Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AAEC45432DA38EC600491CDA /* microJournal Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAEC45452DA38EC600491CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEC45372DA38EC600491CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEC45422DA38EC600491CDA;
+			remoteInfo = "microJournal Watch App";
+		};
+		AAEC45562DA38EC700491CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEC45372DA38EC600491CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEC45422DA38EC600491CDA;
+			remoteInfo = "microJournal Watch App";
+		};
+		AAEC45602DA38EC700491CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAEC45372DA38EC600491CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEC45422DA38EC600491CDA;
+			remoteInfo = "microJournal Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAEC456C2DA38EC700491CDA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AAEC45442DA38EC600491CDA /* microJournal Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAEC453D2DA38EC600491CDA /* microJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEC45432DA38EC600491CDA /* microJournal Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "microJournal Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEC45552DA38EC700491CDA /* microJournal Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "microJournal Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEC455F2DA38EC700491CDA /* microJournal Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "microJournal Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AAEC45472DA38EC600491CDA /* microJournal Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "microJournal Watch App";
+			sourceTree = "<group>";
+		};
+		AAEC45582DA38EC700491CDA /* microJournal Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "microJournal Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AAEC45622DA38EC700491CDA /* microJournal Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "microJournal Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEC45402DA38EC600491CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC45522DA38EC700491CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC455C2DA38EC700491CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAEC45362DA38EC600491CDA = {
+			isa = PBXGroup;
+			children = (
+				AAEC45472DA38EC600491CDA /* microJournal Watch App */,
+				AAEC45582DA38EC700491CDA /* microJournal Watch AppTests */,
+				AAEC45622DA38EC700491CDA /* microJournal Watch AppUITests */,
+				AAEC453E2DA38EC600491CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEC453E2DA38EC600491CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC453D2DA38EC600491CDA /* microJournal.app */,
+				AAEC45432DA38EC600491CDA /* microJournal Watch App.app */,
+				AAEC45552DA38EC700491CDA /* microJournal Watch AppTests.xctest */,
+				AAEC455F2DA38EC700491CDA /* microJournal Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEC453C2DA38EC600491CDA /* microJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEC456D2DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal" */;
+			buildPhases = (
+				AAEC453B2DA38EC600491CDA /* Resources */,
+				AAEC456C2DA38EC700491CDA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEC45462DA38EC600491CDA /* PBXTargetDependency */,
+			);
+			name = microJournal;
+			packageProductDependencies = (
+			);
+			productName = microJournal;
+			productReference = AAEC453D2DA38EC600491CDA /* microJournal.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AAEC45422DA38EC600491CDA /* microJournal Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEC45692DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal Watch App" */;
+			buildPhases = (
+				AAEC453F2DA38EC600491CDA /* Sources */,
+				AAEC45402DA38EC600491CDA /* Frameworks */,
+				AAEC45412DA38EC600491CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAEC45472DA38EC600491CDA /* microJournal Watch App */,
+			);
+			name = "microJournal Watch App";
+			packageProductDependencies = (
+			);
+			productName = "microJournal Watch App";
+			productReference = AAEC45432DA38EC600491CDA /* microJournal Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAEC45542DA38EC700491CDA /* microJournal Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEC45702DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal Watch AppTests" */;
+			buildPhases = (
+				AAEC45512DA38EC700491CDA /* Sources */,
+				AAEC45522DA38EC700491CDA /* Frameworks */,
+				AAEC45532DA38EC700491CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEC45572DA38EC700491CDA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAEC45582DA38EC700491CDA /* microJournal Watch AppTests */,
+			);
+			name = "microJournal Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "microJournal Watch AppTests";
+			productReference = AAEC45552DA38EC700491CDA /* microJournal Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAEC455E2DA38EC700491CDA /* microJournal Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEC45732DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal Watch AppUITests" */;
+			buildPhases = (
+				AAEC455B2DA38EC700491CDA /* Sources */,
+				AAEC455C2DA38EC700491CDA /* Frameworks */,
+				AAEC455D2DA38EC700491CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAEC45612DA38EC700491CDA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAEC45622DA38EC700491CDA /* microJournal Watch AppUITests */,
+			);
+			name = "microJournal Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "microJournal Watch AppUITests";
+			productReference = AAEC455F2DA38EC700491CDA /* microJournal Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEC45372DA38EC600491CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AAEC453C2DA38EC600491CDA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AAEC45422DA38EC600491CDA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AAEC45542DA38EC700491CDA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AAEC45422DA38EC600491CDA;
+					};
+					AAEC455E2DA38EC700491CDA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AAEC45422DA38EC600491CDA;
+					};
+				};
+			};
+			buildConfigurationList = AAEC453A2DA38EC600491CDA /* Build configuration list for PBXProject "microJournal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAEC45362DA38EC600491CDA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AAEC453E2DA38EC600491CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEC453C2DA38EC600491CDA /* microJournal */,
+				AAEC45422DA38EC600491CDA /* microJournal Watch App */,
+				AAEC45542DA38EC700491CDA /* microJournal Watch AppTests */,
+				AAEC455E2DA38EC700491CDA /* microJournal Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEC453B2DA38EC600491CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC45412DA38EC600491CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC45532DA38EC700491CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC455D2DA38EC700491CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEC453F2DA38EC600491CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC45512DA38EC700491CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEC455B2DA38EC700491CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAEC45462DA38EC600491CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEC45422DA38EC600491CDA /* microJournal Watch App */;
+			targetProxy = AAEC45452DA38EC600491CDA /* PBXContainerItemProxy */;
+		};
+		AAEC45572DA38EC700491CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEC45422DA38EC600491CDA /* microJournal Watch App */;
+			targetProxy = AAEC45562DA38EC700491CDA /* PBXContainerItemProxy */;
+		};
+		AAEC45612DA38EC700491CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEC45422DA38EC600491CDA /* microJournal Watch App */;
+			targetProxy = AAEC45602DA38EC700491CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAEC45672DA38EC700491CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAEC45682DA38EC700491CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AAEC456A2DA38EC700491CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microJournal Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = microJournal;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.microJournal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AAEC456B2DA38EC700491CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microJournal Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = microJournal;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.microJournal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AAEC456E2DA38EC700491CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				INFOPLIST_KEY_CFBundleDisplayName = microJournal;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.microJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAEC456F2DA38EC700491CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				INFOPLIST_KEY_CFBundleDisplayName = microJournal;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.microJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEC45712DA38EC700491CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.microJournal-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microJournal Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microJournal Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AAEC45722DA38EC700491CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.microJournal-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microJournal Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microJournal Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AAEC45742DA38EC700491CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.microJournal-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "microJournal Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AAEC45752DA38EC700491CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.microJournal-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "microJournal Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEC453A2DA38EC600491CDA /* Build configuration list for PBXProject "microJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC45672DA38EC700491CDA /* Debug */,
+				AAEC45682DA38EC700491CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEC45692DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC456A2DA38EC700491CDA /* Debug */,
+				AAEC456B2DA38EC700491CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEC456D2DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC456E2DA38EC700491CDA /* Debug */,
+				AAEC456F2DA38EC700491CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEC45702DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC45712DA38EC700491CDA /* Debug */,
+				AAEC45722DA38EC700491CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEC45732DA38EC700491CDA /* Build configuration list for PBXNativeTarget "microJournal Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC45742DA38EC700491CDA /* Debug */,
+				AAEC45752DA38EC700491CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEC45372DA38EC600491CDA /* Project object */;
+}
